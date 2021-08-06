@@ -1,0 +1,79 @@
+body{
+   font-family: sans-serif;
+   background-color: rgb(63, 62, 62);
+}
+
+h1{
+   /* color: rgb(28, 212, 37);*/
+}
+
+h4{
+    color:palevioletred;
+    text-align: center;
+    text-decoration: line-through;
+    
+}
+
+.big-text{
+    
+    font-size: 25px;
+    text-align: unset;
+   padding-left:30px ;
+   padding-right:20px ;
+   padding-bottom:3px ;
+   padding-top:3px ;
+  color: #fff;
+   padding: 30 3px ;
+}
+.p1{
+    color :#fff;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 6px 13px;
+    font-weight: 700;
+    border: 1px solid rgb(226, 101, 122);
+
+
+}
+.p2{
+    color :#fff;
+    background-color: rgba(49, 36, 228, 0.808);
+    width: 50%;
+    text-align: center;
+   border-radius: 10%;
+   padding: 30px 40px;
+
+}
+
+.p1 small{
+    color: red;
+}
+.p1 span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: chartreuse;
+}
+.my-pic{
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+
+}
+
+.my-pic2{
+    height: 50vh;
+    width: 100%;
+     display: flex;
+     align-items: center;
+     top: 0;
+     justify-content: center;
+    background-image: url('../images/pic1.jpg');
+     background-color: rgb(14, 231, 148);
+    background-size: cover;
+    background-position: center;
+}
+.my-pic2 p{
+   color: #000;
+}
